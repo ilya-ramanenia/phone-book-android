@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.iramanenia.phonebook.ContactListActivity">
+    <item
+        android:id="@+id/action_createnew"
+        android:orderInCategory="99"
+        android:title="New Contact"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_createtest"
+        android:orderInCategory="100"
+        android:title="Create Test Contact"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_deleteall"
+        android:orderInCategory="101"
+        android:title="Delete All Contacts"
+        app:showAsAction="never" />
+</menu>
